@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputType>exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>WebServer</AssemblyName>
+    <RootNamespace>WebServer</RootNamespace>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <Version>0.1.0</Version>
+    <Description>A simple webserver.</Description>
+    <Copyright></Copyright>
+    <Authors>thegoldenmule</Authors>
+    <IncludeSymbols>True</IncludeSymbols>
+    <PackageReleaseNotes>First and only release.</PackageReleaseNotes>
+    <FileVersion>0.1.0</FileVersion>
+    <ApplicationIcon />
+    <OutputTypeEx>exe</OutputTypeEx>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+</Project>
